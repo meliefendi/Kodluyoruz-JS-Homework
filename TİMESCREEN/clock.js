@@ -51,6 +51,16 @@ let d = new Date(); //GÜNÜ AYARLAMAK VE DAHA NET OKUNABİLMESİ ADINA ZAMANI T
 } setInterval(time) //VE FUNCTİONUMUZU ÇALIŞTIRDIK. SETİNTERVAL ARACILIĞI İLE SANİYE DEĞİŞİMİNİ CANLI OLARAK ALDIK.
 
 
+////////////////////////////////////////////////////////////////////
+//BU KODLARIN EN AZA İNDİRGEYİP İŞİMİZİ KISALTMAK İSTERSEK
+
+ //let date = new Date().toLocaleString("tr-TR") 
+//document.querySelector(".date").innerHTML = date; veya = `${date}`; diye ekrana basıp işin %90 ını halletmiş oluruz.
+
+////////////////////////////////////////////////////////////////////
+
+
+
 
 
 
