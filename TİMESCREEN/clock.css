@@ -30,6 +30,14 @@ img {
   margin-left: 850px;
   margin-top: 20px;
   font-family: 'Bitter', serif;
-  color:rgb(80, 255, 173);
+  color:coral;
   font-size: 40px;
+}
+.date {
+ display: flex;
+ justify-content: center;
+  margin-top: 20px;
+  font-family: 'Bitter', serif;
+  color:rgb(80, 255, 173);
+  font-size: 70px;
 }

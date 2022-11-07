@@ -34,9 +34,20 @@ let d = new Date(); //GÜNÜ AYARLAMAK VE DAHA NET OKUNABİLMESİ ADINA ZAMANI T
  (TimeDay = 6)? "Cumartesi":
  (TimeDay = 0)? "Pazar": "";
 
+ let date = new Date(); //YILI GÜN/AY/YIL ŞEKLİNDE YAZDIRIYORUZ.
+ let dateDay = new Date().getDate();
+ let dateMonth = new Date().getMonth();
+ let dateYear = new Date().getFullYear();
+
+ if( dateDay< 10){          
+   dateDay = "0" + dateDay
+ }else if (dateMonth < 10){
+   dateMonth = "0" +dateMonth
+ };
 
  document.querySelector(".clock").innerHTML = timeHours+ ":"+ timeMinutes+":" + timeSeconds +":"+ timeMilliSecons ;  //OLUŞTURDUĞUMUZ DEĞİŞKENLERİ HTML ELEMENTİMİZE AKTARDIK
   document.querySelector(".day").innerHTML = `<b>${TimeDay}</b>`;
+  document.querySelector(".date").innerHTML = dateDay+"."+dateMonth+"."+dateYear;
 } setInterval(time) //VE FUNCTİONUMUZU ÇALIŞTIRDIK. SETİNTERVAL ARACILIĞI İLE SANİYE DEĞİŞİMİNİ CANLI OLARAK ALDIK.
 
 
