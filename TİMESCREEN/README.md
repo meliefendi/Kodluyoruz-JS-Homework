@@ -4,3 +4,5 @@ Uygulamanın görüntüsü bu şekilde:
 
 ***
 Açıklama : Kodlar açıklamalı bir şekilde yazıldı.Ayrıca milisaniye eklendi.  
+
+[Patika](https://app.patika.dev/kajinski)
