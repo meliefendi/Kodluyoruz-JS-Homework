@@ -1,3 +1,5 @@
+//BURASI ÇOK KARIŞIK GELDİYSE ORTALARDA Bİ YERDE TÜM BUNLARIN YAPTIĞINI YAPAN 2 SATIRLIK KOD OLCAK ONU İNCELE
+
 let name = prompt("adınızı girin");
 document.getElementById("name").innerHTML = `Selam <b>${name}</b>! Bugün nasılsın? Senin için saati aşağıda gösteriyorum.` //KULLANICIYLA ETKİLEŞİME GİREREK ADINI ALDIK.
 
@@ -51,13 +53,13 @@ let d = new Date(); //GÜNÜ AYARLAMAK VE DAHA NET OKUNABİLMESİ ADINA ZAMANI T
 } setInterval(time) //VE FUNCTİONUMUZU ÇALIŞTIRDIK. SETİNTERVAL ARACILIĞI İLE SANİYE DEĞİŞİMİNİ CANLI OLARAK ALDIK.
 
 
-////////////////////////////////////////////////////////////////////
-//BU KODLARIN EN AZA İNDİRGEYİP İŞİMİZİ KISALTMAK İSTERSEK
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//TÜM BU DURUM KAFANI KARIŞTIRDIYSA İŞİN ÇOĞUNU HALLEDEN ŞU 2 SATIR KOD VAR.
 
  //let date = new Date().toLocaleString("tr-TR") 
 //document.querySelector(".date").innerHTML = date; veya = `${date}`; diye ekrana basıp işin %90 ını halletmiş oluruz.
 
-////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
