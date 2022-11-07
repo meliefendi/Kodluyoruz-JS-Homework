@@ -1,0 +1,35 @@
+body {
+  background-color:rgb(124, 144, 180);
+}
+img {
+  height: 90px;
+  margin-left: 550px;
+  margin-top: 30px;
+  
+
+}
+
+#name {
+  margin-left: 470px;
+  margin-top: 30px;
+  font-size: 35px;
+  margin-bottom: 80px;
+}
+
+.clock {
+  margin-left: 700px;
+  margin-top: 20px;
+  font-family: 'Bitter', serif;
+  color:coral;
+  font-size: 100px;
+  display: flex;
+  justify-content: space-between;
+  /* width: ; */
+}
+.day {
+  margin-left: 850px;
+  margin-top: 20px;
+  font-family: 'Bitter', serif;
+  color:rgb(80, 255, 173);
+  font-size: 40px;
+}
