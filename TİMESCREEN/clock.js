@@ -36,7 +36,7 @@ let d = new Date(); //GÜNÜ AYARLAMAK VE DAHA NET OKUNABİLMESİ ADINA ZAMANI T
  (TimeDay = 6)? "Cumartesi":
  (TimeDay = 0)? "Pazar": "";
 
- let date = new Date(); //YILI GÜN/AY/YIL ŞEKLİNDE YAZDIRIYORUZ.
+ let date = new Date(); //YILI GÜN/AY/YIL ŞEKLİNDE YAZDIRIYORUZ.O YÜZDEN BU ŞEKİLDE TEK TEK TANIMLIYORUZ.DİĞER TÜRLÜ SAATİ DE ALIYOR.AMA ZATEN BİZ SAATİ İSTEİĞİMİZ GİBİ YAZDIRMAK İÇİN YİNE BURASI GİBİ TEK TEK DEĞİŞKENLERE ATADIK.
  let dateDay = new Date().getDate();
  let dateMonth = new Date().getMonth();
  let dateYear = new Date().getFullYear();
