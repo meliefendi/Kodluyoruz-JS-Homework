@@ -29,3 +29,12 @@ domDegrease.addEventListener("click",clickEvent)
 function clickEvent (){
     this.id == "increase" ? counter += 1 : counter -= 1; domCounter.innerHTML = counter
 }
+
+
+domİncrease.addEventListener("click",function(){
+    domCounter.innerHTML = counter += 1
+});
+
+domDecrease.addEventListener("click",function(){
+    domCounter.innerHTML = counter -= 1
+})
