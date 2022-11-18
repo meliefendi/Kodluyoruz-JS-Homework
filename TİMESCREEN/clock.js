@@ -93,3 +93,13 @@ let d = new Date(); //GÜNÜ AYARLAMAK VE DAHA NET OKUNABİLMESİ ADINA ZAMANI T
 //     iceaktarma.innerHTML= saat + ":" + dakika +":" + saniye + " " + gunler[d.getDay()]; 
 // }
 // let simdi = setInterval(zaman,100); 
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////reset işlemi
+
+let reset=document.getElementById('reset');
+
+reset.addEventListener('click',()=>{
+    count=0;
+    document.getElementById('count').innerHTML=count;
+    localStorage.setItem('counter',count);
+})
