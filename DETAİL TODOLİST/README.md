@@ -8,3 +8,4 @@ Projenin görünümü aşağıdaki gibidir.
 
 Eksikler : 
 -  Toast bildirimleri ayarlanamadı.
+- Eklenen maddenin üzerine yapıldı çizgisi çekilde fakat localStorage'e kaydedilemedi.
